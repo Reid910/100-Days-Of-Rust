@@ -7,7 +7,6 @@ fn main() {
     println!("Please input your age in years!");
 
     let mut guess = String::new();
-
     
         io::stdin()
             .read_line(&mut guess)
